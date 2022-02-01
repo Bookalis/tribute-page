@@ -1,0 +1,95 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-image: url("nebula4.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 3px;
+  
+}
+
+.navbar a{
+    display: block;
+    padding: 8px;
+    background:rgba(245, 245, 245, 0) ;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.navbar :hover{
+    color: whitesmoke;
+}
+.navbar::before{
+    color: linen;
+    
+}
+#quote{
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px ;
+    border:5px solid transparent;
+    background:rgba(245, 245, 245, 0);
+    border-radius: 5px ;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    margin: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+caption{
+    text-align: center;
+    
+}
+#bio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+.back2{
+    background-image: url("nebula1.jpg");
+     /* Set a specific height */
+     min-height: 500px;
+  
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: 3px solid black;
+     border-radius: 3px;
+}
+ol{
+    background: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    line-height: 1.4;
+}
+#more_info{
+   color: whitesmoke;
+}
+a{
+    color: whitesmoke;
+}
+a :hover{
+    color: orchid;
+}
+
